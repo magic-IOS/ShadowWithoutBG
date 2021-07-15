@@ -16,6 +16,9 @@
 		FB40541F26A0889C00333128 /* Extension+CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40541E26A0889C00333128 /* Extension+CAShapeLayer.swift */; };
 		FB40542726A088C500333128 /* ShapeShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40542626A088C500333128 /* ShapeShadow.swift */; };
 		FB40542C26A088F500333128 /* CustomShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40542B26A088F500333128 /* CustomShadowView.swift */; };
+		FB40544626A09DC100333128 /* CustomShadowViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40544326A09DC000333128 /* CustomShadowViewLayer.swift */; };
+		FB40544726A09DC100333128 /* CustomShadowViewWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40544426A09DC000333128 /* CustomShadowViewWithAnimation.swift */; };
+		FB40544826A09DC100333128 /* Extension+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40544526A09DC000333128 /* Extension+CGFloat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		FB40541E26A0889C00333128 /* Extension+CAShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CAShapeLayer.swift"; sourceTree = "<group>"; };
 		FB40542626A088C500333128 /* ShapeShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeShadow.swift; sourceTree = "<group>"; };
 		FB40542B26A088F500333128 /* CustomShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShadowView.swift; sourceTree = "<group>"; };
+		FB40544326A09DC000333128 /* CustomShadowViewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShadowViewLayer.swift; sourceTree = "<group>"; };
+		FB40544426A09DC000333128 /* CustomShadowViewWithAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShadowViewWithAnimation.swift; sourceTree = "<group>"; };
+		FB40544526A09DC000333128 /* Extension+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+CGFloat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				FB4053EA26A0885A00333128 /* SceneDelegate.swift */,
 				FB4053EC26A0885A00333128 /* ViewController.swift */,
 				FB40542B26A088F500333128 /* CustomShadowView.swift */,
+				FB40544326A09DC000333128 /* CustomShadowViewLayer.swift */,
+				FB40544426A09DC000333128 /* CustomShadowViewWithAnimation.swift */,
+				FB40544526A09DC000333128 /* Extension+CGFloat.swift */,
 				FB40541E26A0889C00333128 /* Extension+CAShapeLayer.swift */,
 				FB40542626A088C500333128 /* ShapeShadow.swift */,
 				FB4053EE26A0885A00333128 /* Main.storyboard */,
@@ -147,10 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4053ED26A0885A00333128 /* ViewController.swift in Sources */,
+				FB40544626A09DC100333128 /* CustomShadowViewLayer.swift in Sources */,
 				FB40541F26A0889C00333128 /* Extension+CAShapeLayer.swift in Sources */,
+				FB40544826A09DC100333128 /* Extension+CGFloat.swift in Sources */,
 				FB40542726A088C500333128 /* ShapeShadow.swift in Sources */,
 				FB4053E926A0885A00333128 /* AppDelegate.swift in Sources */,
 				FB4053EB26A0885A00333128 /* SceneDelegate.swift in Sources */,
+				FB40544726A09DC100333128 /* CustomShadowViewWithAnimation.swift in Sources */,
 				FB40542C26A088F500333128 /* CustomShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

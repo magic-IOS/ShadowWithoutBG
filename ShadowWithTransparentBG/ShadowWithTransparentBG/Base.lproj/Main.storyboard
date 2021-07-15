@@ -17,13 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZFE-Uu-Ses" customClass="CustomShadowView" customModule="ShadowWithTransparentBG" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZFE-Uu-Ses" customClass="CustomShadowViewWithAnimation" customModule="ShadowWithTransparentBG" customModuleProvider="target">
                                 <rect key="frame" x="107" y="348" width="200" height="200"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="max-N8-2vD"/>
                                     <constraint firstAttribute="width" constant="200" id="rlS-OX-avQ"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                                        <real key="value" value="-90"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="angle">
+                                        <real key="value" value="90"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -33,6 +41,9 @@
                             <constraint firstItem="ZFE-Uu-Ses" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qF3-ZH-JZf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="customShadowView" destination="ZFE-Uu-Ses" id="0wV-W8-blR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
